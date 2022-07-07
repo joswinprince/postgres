@@ -27,3 +27,7 @@ CREATE DATABASE name;
 ```
 create table colors(colorId int,colorName char(20));
 ```
+>**Inserting values **
+```
+insert into colors values (1,'red'), (2,'blue'),(3,'green');
+```
