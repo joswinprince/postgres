@@ -3,25 +3,27 @@
 
 ### List of Commands
 ***
-1.pullout version
-**SELECT version();**
-2.print date
+**Pullout version
+```
+SELECT version();
+```
+**Print date
 ```
 SELECT now();
 ```
-3. Creating the database in POSTGRES SQL
+**Creating the database in POSTGRES SQL
 ```
-**CREATE DATABASE name;**
+CREATE DATABASE name;
 ```
-4.List all the database in the POSTGRES SQL
+**List all the database in the POSTGRES SQL
 ```
 \l
 ```
-5.Switching the database 
+**Switching the database 
 ```
 \c databaseName
 ```
-6.Create a table 
+**Create a table 
 **syntax: create table tablename
 ```
 create table colors(colorId int,colorName char(20));
