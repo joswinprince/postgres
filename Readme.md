@@ -29,6 +29,10 @@ create table colors(colorId int,colorName char(20));
 ```
 >**Inserting values**
 ```
->INSERT INTO TABLE VALUES (VALUE1,VALUE2);
+
 insert into colors values (1,'red'), (2,'blue'),(3,'green');
+```
+>**Selecting values**
+```
+SELECT * FROM COLORS;
 ```
