@@ -24,7 +24,6 @@ CREATE DATABASE name;
 \c databaseName
 ```
 >**Create a table** 
->**syntax: create table tablename**
 ```
 create table colors(colorId int,colorName char(20));
 ```
