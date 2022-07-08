@@ -13,7 +13,12 @@ SELECT now();
 ```
 >**Creating the database in POSTGRES SQL**
 ```
-CREATE DATABASE name;
+CREATE DATABASE favouritefruit
+WITH 
+OWNER =postgres
+ENCODING = 'UTF8'
+CONNECTION LIMIT = -1;
+
 ```
 >**List all the database in the POSTGRES SQL**
 ```
