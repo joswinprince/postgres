@@ -53,5 +53,5 @@ SELECT * FROM COLORS;
 ```
 >** To reset the password
 ```
-C:\Program Files\PostgreSQL\14\data
+C:\Program Files\PostgreSQL\14\data\pg_hba.conf
 ```
