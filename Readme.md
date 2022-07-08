@@ -51,3 +51,7 @@ insert into colors values (1,'red'), (2,'blue'),(3,'green');
 ```
 SELECT * FROM COLORS;
 ```
+>** To reset the password
+```
+C:\Program Files\PostgreSQL\14\data
+```
