@@ -32,6 +32,16 @@ CONNECTION LIMIT = -1;
 ```
 create table colors(colorId int,colorName char(20));
 ```
+To create a Table fruit and assign owner postgres and schema as public
+```
+CREATE TABLE public.fruit
+(
+"FruitId" integer,
+"FruitName" character(20)
+);
+ALTER TABLE public.fruit
+OWNER to postgres;
+```
 >**Inserting values**
 ```
 
