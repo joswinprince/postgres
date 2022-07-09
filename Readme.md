@@ -66,4 +66,4 @@ C:\Program Files\PostgreSQL\14\data\pg_hba.conf
 | table_name |	sql_identifier |	Name of the table |
 | privilege_type | 	character_data |	Type of the privilege: SELECT, DELETE, INSERT, UPDATE, REFERENCES, RULE, or TRIGGER |
 | is_grantable	| character_data |	YES if the privilege is grantable, NO if not |
-| with_hierarchy	|character_data |	Applies to a feature not available in PostgreSQL |
+| with_hierarchy	| character_data |	Applies to a feature not available in PostgreSQL |
