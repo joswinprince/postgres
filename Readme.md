@@ -3,15 +3,15 @@
 
 ### List of Commands
 ***
->**Pullout version**
+## **Pullout version**
 ```
 SELECT version();
 ```
->**Print date**
+## **Print date**
 ```
 SELECT now();
 ```
->**Creating the database in POSTGRES SQL**
+## **Creating the database in POSTGRES SQL**
 ```
 CREATE DATABASE favouritefruit
 WITH 
@@ -20,15 +20,15 @@ ENCODING = 'UTF8'
 CONNECTION LIMIT = -1;
 
 ```
->**List all the database in the POSTGRES SQL**
+## **List all the database in the POSTGRES SQL**
 ```
 \l
 ```
->**Switching the database** 
+## **Switching the database** 
 ```
 \c databaseName
 ```
->**Create a table** 
+## **Create a table** 
 ```
 create table colors(colorId int,colorName char(20));
 ```
@@ -37,21 +37,20 @@ To create a Table fruit and assign owner postgres and schema as public
 CREATE TABLE public.fruit
 (
 "FruitId" integer,
-"FruitName" character(20)
 );
 ALTER TABLE public.fruit
 OWNER to postgres;
 ```
->**Inserting values**
+## **Inserting values**
 ```
 
 insert into colors values (1,'red'), (2,'blue'),(3,'green');
 ```
->**Selecting values**
+## **Selecting values**
 ```
 SELECT * FROM COLORS;
 ```
->** To reset the password
+## ** To reset the password
 ```
 C:\Program Files\PostgreSQL\14\data\pg_hba.conf
 ```
