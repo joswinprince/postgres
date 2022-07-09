@@ -58,7 +58,7 @@ C:\Program Files\PostgreSQL\14\data\pg_hba.conf
 ### Previliges
 
 | Name | Data Type | Description|
-| --- | --- |
+| --- | --- | --- |
 | grantor | sql_identifier | Name of the user that granted the privilege |
 | grantee	| sql_identifier	| Name of the user or group that the privilege was granted to |
 | table_catalog |	sql_identifier |	Name of the database that contains the table (always the current database) |
