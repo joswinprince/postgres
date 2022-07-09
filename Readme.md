@@ -57,12 +57,12 @@ C:\Program Files\PostgreSQL\14\data\pg_hba.conf
 
 ### Previliges
 
-|Name|	Data Type|	Description|
-|grantor	|sql_identifier	|Name of the user that granted the privilege|
-|grantee	|sql_identifier	|Name of the user or group that the privilege was granted to|
-table_catalog|	sql_identifier|	Name of the database that contains the table (always the current database)|
-table_schema|	sql_identifier|	Name of the schema that contains the table|
-table_name|	sql_identifier|	Name of the table|
-privilege_type|	character_data|	Type of the privilege: SELECT, DELETE, INSERT, UPDATE, REFERENCES, RULE, or TRIGGER|
-is_grantable	|character_data|	YES if the privilege is grantable, NO if not|
-with_hierarchy	|character_data|	Applies to a feature not available in PostgreSQL|
+| Name | Data Type|	Description|
+| grantor | sql_identifier | Name of the user that granted the privilege |
+| grantee	| sql_identifier	| Name of the user or group that the privilege was granted to |
+| table_catalog |	sql_identifier|	Name of the database that contains the table (always the current database)|
+| table_schema |	sql_identifier|	Name of the schema that contains the table|
+| table_name |	sql_identifier |	Name of the table|
+| privilege_type | 	character_data |	Type of the privilege: SELECT, DELETE, INSERT, UPDATE, REFERENCES, RULE, or TRIGGER|
+| is_grantable	| character_data |	YES if the privilege is grantable, NO if not|
+| with_hierarchy	|character_data |	Applies to a feature not available in PostgreSQL|
