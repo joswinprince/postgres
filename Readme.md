@@ -46,12 +46,13 @@ OWNER to postgres;
 
 insert into colors values (1,'red'), (2,'blue'),(3,'green');
 ```
-## **Selecting values**
+### Selecting values**
 ```
 SELECT * FROM COLORS;
 ```
-## ** To reset the password
+### To reset the password
 ```
 C:\Program Files\PostgreSQL\14\data\pg_hba.conf
 ```
-..
+
+### PReviliges
