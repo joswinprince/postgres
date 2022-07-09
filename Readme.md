@@ -67,3 +67,9 @@ C:\Program Files\PostgreSQL\14\data\pg_hba.conf
 | privilege_type | 	character_data |	Type of the privilege: SELECT, DELETE, INSERT, UPDATE, REFERENCES, RULE, or TRIGGER |
 | is_grantable	| character_data |	YES if the privilege is grantable, NO if not |
 | with_hierarchy	| character_data |	Applies to a feature not available in PostgreSQL |
+
+### create schemas
+
+```
+CREATE SCHEMAS schemaname AUTHORIZATION userRole;
+```
