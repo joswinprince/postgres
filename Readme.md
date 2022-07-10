@@ -72,4 +72,10 @@ C:\Program Files\PostgreSQL\14\data\pg_hba.conf
 
 ```
 CREATE SCHEMAS schemaname AUTHORIZATION userRole;
+
+```
+
+### Query table in cmd
+```
+SELECT column1, column2, column3, column4 FROM "schema"."table";
 ```
