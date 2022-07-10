@@ -81,6 +81,7 @@ SELECT column1, column2, column3, column4 FROM "schema"."table";
 ```
 
 ### select multiple tables using uniqu column
+This is the query to view joined columns from 2 different tables 
 ```
 SELECT table1.column1,
 	table1.column2,
