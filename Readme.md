@@ -79,3 +79,14 @@ CREATE SCHEMAS schemaname AUTHORIZATION userRole;
 ```
 SELECT column1, column2, column3, column4 FROM "schema"."table";
 ```
+
+### select multiple tables using uniqu column
+```
+SELECT table1.column1,
+	table1.column2,
+	table1.column3,
+	table2.column1,
+	table2.column2
+FROM schema.table1 JOIN schema.table2
+	ON table1.similarcolumninbothtable = table2.similarcolumninbothtable
+```
