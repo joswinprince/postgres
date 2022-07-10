@@ -91,3 +91,12 @@ SELECT table1.column1,
 FROM schema.table1 JOIN schema.table2
 	ON table1.similarcolumninbothtable = table2.similarcolumninbothtable
 ```
+
+### Check Constraint
+***
+Check constraint is used to check and validate the data that is inserted for a particular column
+```
+ALTER TABLE schema.table
+ADD CONSTRAINT constraint_name 
+CHECK (col_name = 'value1' OR col_name = 'value2');
+```
