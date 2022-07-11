@@ -100,3 +100,4 @@ ALTER TABLE schema.table
 ADD CONSTRAINT constraint_name 
 CHECK (col_name = 'value1' OR col_name = 'value2');
 ```
+
