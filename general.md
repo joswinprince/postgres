@@ -21,3 +21,7 @@ Display all the schemas in the postgres sql database
 ```
 \dn
 ```
+change the schema from one owner to another
+```
+ALTER SCHEMA schema_name OWNER TO new_owner;
+```
