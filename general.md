@@ -10,6 +10,11 @@ create user raju with encrypted password 'Postgres123';
 ```
 Granting schema access to the user (role)
 ```
+
+Creating database
+```
+create database db_name
+```
 GRANT USAGE ON SCHEMA schema_name TO role_name;
 ```
 Display all the database in the postgres sql database 
