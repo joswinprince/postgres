@@ -12,3 +12,12 @@ Granting schema access to the user (role)
 ```
 GRANT USAGE ON SCHEMA schema_name TO role_name;
 ```
+Display all the database in the postgres sql database 
+```
+\l
+```
+
+Display all the schemas in the postgres sql database 
+```
+\dn
+```
