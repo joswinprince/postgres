@@ -33,6 +33,10 @@ Display all the schemas in the postgres sql database
 ```
 \dn
 ```
+Display all the users in the postgres sql database 
+```
+\du
+```
 change the schema from one owner to another
 ```
 ALTER SCHEMA schema_name OWNER TO new_owner;
