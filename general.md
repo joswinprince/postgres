@@ -45,3 +45,7 @@ set createdb access to username
 ```
 ALTER USER new_username CREATEDB;
 ```
+Grant connection to user or role 
+```
+GRANT CONNECT ON DATABASE your_database TO new_username;
+```
