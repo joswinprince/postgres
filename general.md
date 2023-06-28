@@ -15,6 +15,12 @@ Creating database
 ```
 create database db_name
 ```
+switching database in psql command line
+```
+\c your_database_name
+```
+
+
 GRANT USAGE ON SCHEMA schema_name TO role_name;
 ```
 Display all the database in the postgres sql database 
