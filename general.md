@@ -21,8 +21,8 @@ switching database in psql command line
 ```
 \c your_database_name
 ```
-
-
+Grant schema to role
+```
 GRANT USAGE ON SCHEMA schema_name TO role_name;
 ```
 Display all the database in the postgres sql database 
