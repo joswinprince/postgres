@@ -29,7 +29,6 @@ Display all the database in the postgres sql database
 ```
 \l
 ```
-
 Display all the schemas in the postgres sql database 
 ```
 \dn
@@ -37,4 +36,8 @@ Display all the schemas in the postgres sql database
 change the schema from one owner to another
 ```
 ALTER SCHEMA schema_name OWNER TO new_owner;
+```
+set createdb access to username 
+```
+ALTER USER new_username CREATEDB;
 ```
